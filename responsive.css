@@ -1,0 +1,152 @@
+/* Responsividade para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  /* Ajustes no layout de #page1 */
+  #page1 {
+    display: grid; /* Utiliza o layout de grid */
+    grid-template-columns: 1fr; /* Apenas uma coluna */
+    grid-template-rows: 1fr 1fr; /* Duas linhas com altura flexível */
+    gap: 10px; /* Espaço entre os elementos */
+    padding: 10px; /* Padding para garantir que o conteúdo não fique colado nas bordas */
+    position: relative; /* Permite o posicionamento das divs acima da imagem */
+    height: 100vh; /* Garantir que ocupe toda a altura da tela */
+    overflow: hidden; /* Impede que o conteúdo saia da área visível */
+  }
+
+  /* Ajuste do #right-text no dispositivo móvel */
+  #page1 > #right-text {
+    position: absolute; /* Torna a div absoluta para sobrepor a imagem */
+    top: 20%; /* Ajusta a posição vertical do right-text */
+    left: 10%; /* Ajusta a posição horizontal do right-text */
+    width: 80%; /* Define a largura da div */
+    text-align: center; /* Centraliza o texto */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    background: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    border-radius: 10px; /* Bordas arredondadas para o efeito */
+    z-index: 2; /* Coloca o texto acima da imagem */
+  }
+
+  /* Ajuste do #left-text no dispositivo móvel */
+  #page1 > #left-text {
+    position: absolute; /* Torna a div absoluta para sobrepor a imagem */
+    bottom: 10%; /* Ajusta a posição vertical do left-text */
+    left: 10%; /* Ajusta a posição horizontal do left-text */
+    width: 80%; /* Define a largura da div */
+    text-align: center; /* Centraliza o texto */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    background: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    border-radius: 10px; /* Bordas arredondadas para o efeito */
+    z-index: 2; /* Coloca o texto acima da imagem */
+  }
+
+  /* Ajuste do tamanho da fonte do título em #right-text */
+  #page1 > #right-text > h1 {
+    font-size: 32px; /* Reduz o tamanho da fonte do título */
+    line-height: 1.2;
+  }
+
+  /* Ajuste do tamanho da fonte do título em #left-text */
+  #page1 > #left-text > h1 {
+    font-size: 32px; /* Reduz o tamanho da fonte do título */
+    line-height: 1.2;
+  }
+}
+
+/* Responsividade para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  /* Ajustes no layout de #page2 */
+  #page2 {
+    display: grid; /* Utiliza o layout de grid */
+    grid-template-columns: 1fr; /* Apenas uma coluna */
+    grid-template-rows: auto auto; /* Duas linhas com altura flexível */
+    gap: 10px; /* Espaço entre os elementos */
+    padding: 10px; /* Padding para garantir que o conteúdo não fique colado nas bordas */
+    position: relative; /* Permite o posicionamento das divs acima da imagem */
+    height: 100vh; /* Garantir que ocupe toda a altura da tela */
+    overflow: hidden; /* Impede que o conteúdo saia da área visível */
+  }
+
+  /* Ajuste do #text1 no dispositivo móvel */
+  #page2 > #text1 {
+    position: absolute; /* Torna a div absoluta para sobrepor a imagem */
+    top: 20%; /* Ajusta a posição vertical do text1 */
+    left: 10%; /* Ajusta a posição horizontal do text1 */
+    width: 80%; /* Define a largura da div */
+    text-align: center; /* Centraliza o texto */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    background: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    border-radius: 10px; /* Bordas arredondadas para o efeito */
+    z-index: 2; /* Coloca o texto acima da imagem */
+  }
+
+  /* Ajuste do #text2 no dispositivo móvel */
+  #page2 > #text2 {
+    position: absolute; /* Torna a div absoluta para sobrepor a imagem */
+    bottom: 10%; /* Ajusta a posição vertical do text2 */
+    left: 10%; /* Ajusta a posição horizontal do text2 */
+    width: 80%; /* Define a largura da div */
+    text-align: center; /* Centraliza o texto */
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    background: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+    padding: 20px; /* Adiciona espaço ao redor do texto */
+    border-radius: 10px; /* Bordas arredondadas para o efeito */
+    z-index: 2; /* Coloca o texto acima da imagem */
+  }
+
+  /* Ajuste do tamanho da fonte do título em #text1 */
+  #page2 > #text1 > h1 {
+    font-size: 32px; /* Reduz o tamanho da fonte do título */
+    line-height: 1.2;
+  }
+
+  /* Ajuste do tamanho da fonte em #text2 */
+  #page2 > #text2 > p {
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    line-height: 1.6;
+    font-weight: bold; /* Torna o texto em negrito */
+    color: black;
+  }
+}
+
+/* Responsividade para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  /* Ajustes no layout de #page3 */
+  #page3 {
+    display: grid; /* Utiliza o layout de grid */
+    grid-template-columns: 1fr; /* Apenas uma coluna */
+    grid-template-rows: auto; /* Uma única linha */
+    gap: 10px; /* Espaço entre os elementos */
+    padding: 10px; /* Padding para garantir que o conteúdo não fique colado nas bordas */
+    position: relative; /* Permite o posicionamento das divs acima da imagem */
+    height: 100vh; /* Garantir que ocupe toda a altura da tela */
+    overflow: hidden; /* Impede que o conteúdo saia da área visível */
+  }
+
+  /* Ajuste do #text3 no dispositivo móvel */
+  #page3 > #text3 {
+    position: absolute; /* Torna a div absoluta para sobrepor a imagem */
+    top: 20%; /* Ajusta a posição vertical de #text3 */
+    left: 73%; /* Ajusta a posição horizontal para o canto direito */
+    width: 30%; /* Define a largura da div */
+    text-align: center; /* Centraliza o texto */
+    font-size: 20px; /* Ajusta o tamanho da fonte */
+    padding: 15px; /* Adiciona espaço ao redor do texto */
+    z-index: 2; /* Coloca o texto acima da imagem */
+    writing-mode: vertical-rl; /* Define o texto vertical de cima para baixo */
+    transform: rotate(360deg); /* Inverte a direção do texto para cima */
+  }
+
+  /* Ajuste do tamanho da fonte do título em #text3 */
+  #page3 > #text3 > h1 {
+    font-size: 24px; /* Ajusta o tamanho da fonte do título */
+    line-height: 1.2;
+  }
+
+  /* Ajuste do tamanho da fonte de <b> e <i> em #text3 */
+  #page3 > #text3 > h1 > b,
+  #page3 > #text3 > h1 > i {
+    font-size: 24px; /* Tamanho ligeiramente maior para o destaque */
+  }
+}
